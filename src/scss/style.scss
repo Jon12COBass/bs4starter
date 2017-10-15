@@ -1,1 +1,63 @@
 // Main Sass File
+$grey: #F5F5F5;
+$dark-blue: #1D3557;
+$mid-blue: #457B9D;
+$light-green: #F1FAEE;
+$teal: #A8DADC;
+$red: #E63946;
+
+body {
+  background-color: $grey; 
+}
+
+.navbar-inverse {
+  background-color: $dark-blue;
+  background-image: none;
+  border-bottom-width: 20px;
+  border-color: $mid-blue;
+  margin-bottom: 0px; }
+
+.navbar-brand h1 {
+  color: $light-green; }
+
+#navbar h1,
+h2 {
+  color: #F1FAEE; }
+
+.contact-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 0px;
+  margin-top: 0px; }
+
+.contact-info#first {
+  margin-top: 20px; }
+
+#skills h2 {
+  color: $dark-blue; }
+
+.jumbotron {
+  background-color: $teal; }
+
+.jumbotron h1 {
+  font-size: 3.0em;
+  color: $dark-blue; }
+
+.job-title {
+  color: $red; }
+
+.jumbotron p {
+  color: $dark-blue; }
+
+h2.skill-category {
+  color: $dark-blue; }
+
+.work-xp {
+  color: $dark-blue; }
+
+a.btn.btn-default {
+  background-color: $red;
+  color: $grey; }
+
+footer {
+  background-color: $dark-blue;
+  color: $red; }
