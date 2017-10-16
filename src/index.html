@@ -5,6 +5,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css">
         <title>Bootstrap 4 Starter Pack</title>
     </head>
@@ -17,25 +18,47 @@
 
         <!-- Add your site or application content here -->
 
-        
-        <div class="container-fluid"> <!-- BEGIN MAIN CONTAINER -->
+        <!-- <nav class="navbar"> -->
+        <!-- BEGIN INTRO SECTION-->    
+        <div id="intro" class="container-fluid">
+            
             <div class="row">
+          
+                <div class="col-md-12">
+                    <h1 class="text-center">Jonathan R. Taylor</h1>
+                </div>
+                
+                
+                <div class="col-md-12">
+                    <hr class="divider"/>
+                </div>
+               
+
+                <div class="col-md-12">
+                    <h2 class="text-center">Interactive Resume</h2>
+                </div>
+            </div>
+        </div> 
+        <!-- END INTRO SECTION -->
+
+        <!-- <nav> -->
+            <!-- <div class="row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-inverse">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <div class="container"> -->
+                            <!-- <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                     <span class="sr-only">Toggle navigation</span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
-                                </button> -->
+                                </button>
                                 <div class="row">
-                                    <a class="navbar-brand text-center" href="#"><h1 class="text-center">Jonathan R. Taylor</h1></a>
+                                    <a class="navbar-brand text-center mx-auto" href="#"><h1 class="text-center">Jonathan R. Taylor</h1></a>
                                 </div>
-                            </div>
+                            </div> -->
                             <!--<div id="navbar" class="navbar-collapse collapse"> -->
-                            <div id="navbar">
+                            <!-- <div id="navbar">
                                 <form class="navbar-form navbar-right">
                                     <div class="contact-info">
                                         <h2 id="first">200 Breckenridge Trail</h2>
@@ -45,66 +68,93 @@
                                     </div>
                                 </form>
                             </div><!--/.navbar-collapse -->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
+        <!-- </nav> -->
 
             <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron">
-                <div class="container">
-                    <div class="row">
-                        <h1 class="text-center">IT Deskside Support</h1>
+        <div class="jumbotron container">
+            <!-- <div class="container"> -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Profile</h1>        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2>About Me</h2>
                         <p>3 years of experience with IT support for a small business and currently employed at a Tier 1 Helpdesk for government employees. A broad range of technical knowledgeand an expert in working one on one with users to resolve issues and provide training. Seeking a position with advancement opportunities and opportunity for expanding current skill-set to contribute to organizational development.</p>
                     </div>
-                    </p>
-                    <h3>Certifications: CompTIA A+ and Network+</h3>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+                    <div class="col-md-4">
+                        <a href="#"><img src="/img/mexico.jpg" class="img-fluid" id="headshot"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>Details</h2>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h4>Name:</h3>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Jonathan R Taylor</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Age:</h3>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>28</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h4>Location:</h4>
+                            </div>
+                            <div class="col-md-8">
+                                <h4>Denver, CO</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <h3>Certifications: CompTIA A+ and Network+</h3>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+            <!-- </div> -->
+        </div>
+
+        <div class="container" id="skills">
+        <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="skill-category">Hardware</h2>
+                    <ul>
+                        <li>PC Components</li>
+                        <li>Printers/Peripherals</li>
+                        <li>Network Infrastructure</li>
+                        <li>Mobile Devices</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="skill-category">Systems</h2>
+                    <ul>
+                        <li>Windows</li>
+                        <li>Exchange</li>
+                        <li>Active Directory</li>
+                        <li>Mac OS X</li>
+                        <li>Linux Server Administration</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="skill-category">Software</h2>
+                    <ul>
+                        <li>SSH</li>
+                        <li>Service Now Ticketing System</li>
+                        <li>Network Utilities</li>
+                        <li>Advanced MS Application Skills</li>
+                    </ul>
+                    <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
                 </div>
             </div>
 
-            <div class="container" id="skills">
-            <!-- Example row of columns -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2 class="skill-category">Hardware</h2>
-                        <ul>
-                            <li>PC Components</li>
-                            <li>Printers/Peripherals</li>
-                            <li>Network Infrastructure</li>
-                            <li>Mobile Devices</li>
-                        </ul>
-                        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <h2 class="skill-category">Systems</h2>
-                        <ul>
-                            <li>Windows</li>
-                            <li>Exchange</li>
-                            <li>Active Directory</li>
-                            <li>Mac OS X</li>
-                            <li>Linux Server Administration</li>
-                        </ul>
-                        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                    </div>
-                    <div class="col-md-4">
-                        <h2 class="skill-category">Software</h2>
-                        <ul>
-                            <li>SSH</li>
-                            <li>Service Now Ticketing System</li>
-                            <li>Network Utilities</li>
-                            <li>Advanced MS Application Skills</li>
-                        </ul>
-                        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                    </div>
-                </div>
+            <hr>
 
-                <hr>
-
-            </div> <!-- /container -->
+        </div> <!-- Skills Container -->
             <div class="container work-xp">            
                 <div class="row">
                     <h3 class="company-name col-md-6">IBM - contractor for state of New York</h3>
@@ -174,6 +224,5 @@
             <script src="js/jquery.min.js"></script>
             <script src="js/popper.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
-        </div> <!-- END MAIN CONTAINER -->
     </body>
 </html>

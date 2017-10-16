@@ -1,6 +1,16 @@
 body {
   background-color: #F5F5F5; }
 
+#intro {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1D3557;
+  color: #F1FAEE; }
+
+.divider {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+  max-width: 400px; }
+
 .navbar-inverse {
   background-color: #1D3557;
   background-image: none;
@@ -23,14 +33,30 @@ h2 {
 .contact-info#first {
   margin-top: 20px; }
 
+#skills, .work-xp {
+  background-color: #F5F5F5; }
+
+#skills {
+  background-color: #434242;
+  color: #F5F5F5; }
+
 #skills h2 {
-  color: #1D3557; }
+  color: #A8DADC; }
+
+#headshot {
+  max-width: 200px; }
 
 .jumbotron {
-  background-color: #A8DADC; }
+  background-color: #F5F5F5;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 5px solid #1D3557; }
 
 .jumbotron h1 {
   font-size: 3.0em;
+  color: #1D3557; }
+
+.jumbotron h2 {
   color: #1D3557; }
 
 .job-title {
