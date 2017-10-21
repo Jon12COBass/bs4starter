@@ -11,19 +11,52 @@ body {
   border-bottom: 1px solid #fff;
   max-width: 400px; }
 
-.navbar-inverse {
-  background-color: #1D3557;
-  background-image: none;
-  border-bottom-width: 20px;
-  border-color: #457B9D;
-  margin-bottom: 0px; }
+.navbar {
+  border: 3px solid #A8DADC;
+  background-color: #F5F5F5;
+  position: fixed;
+  top: 30%;
+  right: 1%;
+  width: 110px;
+  z-index: 999; }
 
-.navbar-brand h1 {
-  color: #F1FAEE; }
+.navbar .navbar-collapse {
+  padding: 0px;
+  max-height: none; }
 
-#navbar h1,
-h2 {
-  color: #F1FAEE; }
+.navbar .navbar-nav {
+  float: none; }
+
+.navbar-nav {
+  margin: 0px; }
+
+.navbar .nav > li {
+  display: block;
+  float: none;
+  height: 80px; }
+
+.navbar .nav > li a {
+  display: block;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  color: #1D3557; }
+
+.navbar .nav > li a:hover, .navbar .nav > li a:focus {
+  color: #999999; }
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background: #22A39F;
+  color: #FFFFFF; }
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background: #222222; }
+
+.fixed .navbar {
+  position: fixed;
+  top: 60px; }
 
 .contact-info h2 {
   font-size: 1.2em;
@@ -50,7 +83,8 @@ h2 {
   background-color: #F5F5F5;
   justify-content: center;
   text-align: center;
-  border-bottom: 5px solid #1D3557; }
+  border-bottom: 5px solid #1D3557;
+  font-family: 'Roboto Slab', serif; }
 
 .jumbotron h1 {
   font-size: 3.0em;
@@ -58,6 +92,9 @@ h2 {
 
 .jumbotron h2 {
   color: #1D3557; }
+
+.details-content h4 {
+  font-size: 1.0rem; }
 
 .job-title {
   color: #E63946; }

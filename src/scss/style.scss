@@ -22,19 +22,33 @@ body {
 	max-width: 400px;
 }
 
-.navbar-inverse {
-  background-color: $dark-blue;
-  background-image: none;
-  border-bottom-width: 20px;
-  border-color: $mid-blue;
-  margin-bottom: 0px; }
 
-.navbar-brand h1 {
-  color: $light-green; }
+.navbar  { border: 3px solid $teal; background-color: $grey; position: fixed; top: 30%; right: 1%; width: 110px; z-index: 999; }
+.navbar .navbar-collapse { padding: 0px; max-height: none; }
+.navbar .navbar-nav { float: none; }
+.navbar-nav { margin: 0px; }
+.navbar .nav > li { display: block; float: none; height: 80px; } 
+.navbar .nav > li a { display: block;  height: 80px; text-align: center; padding-top: 30px; font-weight: 600; color: $dark-blue; }
+.navbar .nav > li a:hover, .navbar .nav > li a:focus { color: #999999; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background: #22A39F; color: #FFFFFF; }
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar { background: #222222; }
 
-#navbar h1,
-h2 {
-  color: #F1FAEE; }
+.fixed .navbar  { position: fixed; top: 60px; }
+
+// .navbar-inverse {
+//   background-color: $dark-blue;
+//   background-image: none;
+//   border-bottom-width: 20px;
+//   border-color: $mid-blue;
+//   margin-bottom: 0px; }
+
+// .navbar-brand h1 {
+//   color: $light-green; }
+
+// #navbar h1,
+// h2 {
+//   color: #F1FAEE; }
 
 .contact-info h2 {
   font-size: 1.2em;
@@ -66,6 +80,7 @@ h2 {
   justify-content: center;
   text-align: center;
   border-bottom: 5px solid $dark-blue;
+  font-family: 'Roboto Slab', serif;
 }
 
 .jumbotron h1 {
@@ -74,6 +89,10 @@ h2 {
 
 .jumbotron h2 {
   color: $dark-blue;
+}
+
+.details-content h4 {
+  font-size: 1.0rem;
 }
 
 .job-title {
